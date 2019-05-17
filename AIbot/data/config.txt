@@ -1,0 +1,45 @@
+[server_conf]
+chat_url = http://30.12.21.197/business_server/chat
+prologue_url = http://30.12.21.197/business_server/prologue
+chat_method = post
+chat_postplace = other
+headers = {"content-Type": "applcation/json;charset=UTF-8"}
+expect_code = 00
+
+[giftInsurance_conf]
+sessionId = dd5l42h6u3k4h6l42jli6l4j6
+sceneId = giftInsurance
+clientId = ogy999888
+type_conf = 03
+excel_file = ../data/test.xlsx
+yiyi_sheet =  异议扩展问
+gift_response = ["data"]["answer"]
+
+
+[eLifeInsurance_conf]
+sessionId = ergre850yfs9dg7dfhs8fh9
+sceneId = eLifeInsurance
+clientId = ougy999888
+type_conf = 03
+excel_file = ../data/test.xlsx
+yiyi_sheet = 异议扩展问
+elife_response = ["data"]["answer"]
+
+
+[chat_conf]
+sessionId = gs979s79hs9h7979hsdfhs
+sceneId =
+clientId = ougy999888
+excel_file = ../data/20180716闲聊语料v2.xlsx
+yiyi_sheet = 工资表1
+chat_response = ["data"]["answer"]
+
+
+[baseFaq_conf]
+sessionId = 6fsa8dfas79fd797sa9df9f7a9s
+sceneId =
+clientId = ougy999888
+type_conf =
+excel_file = ../data/test3.xlsx
+yiyi_sheet = Worksheet
+baseFaq_response = ["data"]["answer"]
