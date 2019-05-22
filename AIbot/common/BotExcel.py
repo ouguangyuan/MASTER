@@ -73,7 +73,7 @@ def read_chatExcel(excel_file, yiyi_sheet):
         q.json = ""
         qList.append(q)
 
-#   print(qList)
+	print(qList)
 #   print(len(qList))
 
     return qList
